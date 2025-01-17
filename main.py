@@ -49,9 +49,9 @@ def convert_html_to_csv():
             cells = row.find_all(["th", "td"])
             data.append([cell.get_text(strip=True) for cell in cells])
 
-        # Write to CSV file
+        # Write to CSV file with all cells quoted
         with open(csv_path, "w", encoding="utf-8-sig", newline="") as csv_file:
-            writer = csv.writer(csv_file)
+            writer = csv.writer(csv_file, quoting=csv.QUOTE_ALL)
             writer.writerows(data)
 
         messagebox.showinfo("Success", f"CSV file saved successfully at {csv_path}")
