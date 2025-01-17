@@ -1,0 +1,26 @@
+VSVersionInfo(
+  ffi=FixedFileInfo(
+    filevers=(1, 0, 0, 0),
+    prodvers=(1, 0, 0, 0),
+    mask=0x3f,
+    flags=0x0,
+    OS=0x4,
+    fileType=0x1,
+    subtype=0x0,
+    date=(0, 0)
+  ),
+  kids=[
+    StringTable(
+      u'040904b0', [
+        StringStruct(u'CompanyName', u'Independent Developer'),
+        StringStruct(u'FileVersion', u'1.0.0.0'),
+        StringStruct(u'InternalName', u'htmltb-csv.exe'),
+        StringStruct(u'LegalCopyright', u'© 2025 @Tom-M-Git Licensed under MIT'),
+        StringStruct(u'OriginalFilename', u'htmltb-csv.exe'),
+        StringStruct(u'ProductName', u'htmltb-csv'),
+        StringStruct(u'ProductVersion', u'1.0.0.0'),
+        StringStruct(u'Contact', u'https://github.com/Tom-M-Git')
+      ]
+    )
+  ]
+)
